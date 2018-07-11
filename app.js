@@ -1,5 +1,5 @@
 let phrase = prompt('Escribe una frase');
-if (phrase == '') {
+if (phrase === '') {
     alert('Debe ingresar un mensaje');
 } else {
     document.getElementById('frase').innerHTML = ("La frase  \'  " + phrase + " \'tiene " + count(phrase) + " carácteres y " + spaces(phrase) + " espacios");
